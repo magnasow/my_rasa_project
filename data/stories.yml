@@ -1,0 +1,32 @@
+version: "3.1"
+
+stories:
+  - story: Interaction de salutation
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: Interaction d'au revoir
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: Demande sur les tendances actuelles
+    steps:
+      - intent: ask_trends
+      - action: utter_ask_trends
+
+  - story: Demande de conseils beauté
+    steps:
+      - intent: beauty_tips
+      - action: utter_beauty_tips
+
+  - story: Demande de conseils de style
+    steps:
+      - intent: ask_style_tip
+      - action: utter_style_tip
+
+  - story: Demande sur les couleurs tendances
+    steps:
+      - intent: ask_colors
+      - action: utter_ask_colors

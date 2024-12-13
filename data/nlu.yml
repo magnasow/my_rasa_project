@@ -1,0 +1,56 @@
+version: "3.1"
+nlu:
+  - intent: greet
+    examples: |
+      - Bonjour
+      - Salut
+      - Hello
+      - Coucou
+      - Salut, comment ça va ?
+      - Bonjour, comment allez-vous ?
+
+  - intent: goodbye
+    examples: |
+      - Au revoir
+      - À plus tard
+      - Bye
+      - Merci, à bientôt
+      - À bientôt
+      - Salut, à plus tard
+
+  - intent: ask_trends
+    examples: |
+      - Quelles sont les tendances actuelles ?
+      - Quels sont les styles en vogue ?
+      - Parle-moi des nouvelles tendances de mode
+      - Quelles sont les tendances du moment ?
+      - Quelles sont les tendances en mode ?
+      - Dis-moi les tendances actuelles
+
+  - intent: beauty_tips
+    examples: |
+      - Donne-moi un conseil beauté
+      - As-tu des astuces de soin pour la peau ?
+      - Quels produits dois-je utiliser pour une peau parfaite ?
+      - Comment avoir une belle peau ?
+      - Quelles sont tes astuces beauté ?
+      - As-tu des conseils pour ma peau ?
+
+  - intent: ask_style_tip
+    examples: |
+      - Des astuces de style ?
+      - Comment puis-je améliorer mon look ?
+      - Conseille-moi un accessoire tendance
+      - J’ai besoin d’un conseil de mode
+      - Quel style me conviendrait ?
+      - Comment puis-je améliorer mon style ?
+
+  - intent: ask_colors
+    examples: |
+      - Quelles sont les couleurs tendance ?
+      - Parle-moi des couleurs à la mode
+      - Quelles couleurs sont populaires cette saison ?
+      - Quelles sont les couleurs tendances pour cette saison ?
+      - Quelles couleurs faut-il porter cette année ?
+      - Quels sont les coloris populaires ?
+

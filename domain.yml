@@ -1,0 +1,37 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - ask_trends
+  - beauty_tips
+  - ask_style_tip
+  - ask_colors
+  
+responses:
+  utter_greet:
+    - text: "Bonjour ! Comment puis-je vous aider aujourd'hui ?"
+
+  utter_goodbye:
+    - text: "Au revoir ! N'hésitez pas à revenir si vous avez besoin d'aide."
+
+  utter_ask_trends:
+    - text: "Les tendances actuelles incluent des vêtements durables et des styles minimalistes. Que cherchez-vous exactement ?"
+
+  utter_beauty_tips:
+    - text: "Un bon conseil beauté : hydratez votre peau quotidiennement et utilisez des produits adaptés à votre type de peau."
+
+  utter_style_tip:
+    - text: "Pour améliorer votre look, essayez des accessoires qui correspondent à votre tenue ou ajoutez une touche de couleur audacieuse."
+
+  utter_ask_colors:
+    - text: "Les couleurs tendance cette saison incluent le vert sauge, le bleu ciel et le terracotta."
+
+actions:
+  - action_show_greet
+  - action_show_goodbye
+  - action_show_trends
+  - action_show_beauty_tips
+  - action_show_style_tip
+  - action_show_colors
+  

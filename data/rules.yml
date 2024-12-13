@@ -1,0 +1,32 @@
+version: "3.1"
+
+rules:
+  - rule: Saluer l'utilisateur
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Dire au revoir à l'utilisateur
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Répondre aux questions sur les tendances
+    steps:
+      - intent: ask_trends
+      - action: utter_ask_trends
+
+  - rule: Fournir des conseils beauté
+    steps:
+      - intent: beauty_tips
+      - action: utter_beauty_tips
+
+  - rule: Fournir des conseils de style
+    steps:
+      - intent: ask_style_tip
+      - action: utter_style_tip
+
+  - rule: Répondre aux questions sur les couleurs tendance
+    steps:
+      - intent: ask_colors
+      - action: utter_ask_colors
